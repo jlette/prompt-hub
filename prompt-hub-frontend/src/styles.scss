@@ -1,0 +1,32 @@
+@import 'primeflex/primeflex.css';
+@import 'primeicons/primeicons.css';
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.p-inputtext.ng-invalid.ng-touched,
+.p-textarea.ng-invalid.ng-touched,
+.p-select.ng-invalid.ng-touched{
+  border-color: var(--p-inputtext-invalid-border-color);
+}
+
+.invalid-feedback {
+  display: none;
+  color: var(--p-red-500)
+}
+
+.ng-invalid.ng-dirty + .invalid-feedback,
+.ng-invalid.ng-touched + .invalid-feedback
+{
+  display: block;
+}

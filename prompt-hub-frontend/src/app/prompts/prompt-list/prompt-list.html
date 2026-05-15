@@ -1,0 +1,11 @@
+@if (loading()) {
+<div class="flex justify-content-center py-6">
+  <p-progress-spinner/>
+</div>
+} @else {
+  @for (prompt of prompts(); track prompt.id) {
+    <app-prompt-card [prompt]="prompt" />
+  }
+}
+
+
