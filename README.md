@@ -10,6 +10,13 @@ Ce projet a été développé dans le cadre d'un apprentissage approfondi des st
 ### 1. Prérequis (Backend)
 L'application nécessite une API pour fonctionner. Assurez-vous d'avoir téléchargé et lancé le projet `prompt-hub-backend` (NestJS). Il doit impérativement tourner sur le port `3000`.
 
+```bash
+# Installation des dépendances du backend
+npm install
+
+# Lancement du serveur NestJS avec l'authentification
+npm run start:auth
+````
 ### 2. Démarrer l'application Angular
 Une fois le dépôt cloné, placez-vous à la racine du projet dans votre terminal et exécutez les commandes suivantes :
 
