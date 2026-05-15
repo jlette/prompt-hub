@@ -18,4 +18,4 @@ Une fois le dépôt cloné, placez-vous à la racine du projet dans votre termin
 npm install
 
 # Lancement du serveur de développement
-npm start:auth
+npm start
